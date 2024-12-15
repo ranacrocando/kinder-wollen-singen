@@ -13,7 +13,7 @@
   title = "Ich lag und schlief, da träumte mir"
   poet = "Hoffmann von Fallersleben (1798-1872)"
   composer = "Volksweise"
-
+  copyright = "Public Domain"
   tagline = \markup{
     \column{}
   }
@@ -174,8 +174,5 @@ lower =
       "Der Notensatz basiert auf dem Satz aus „Das Buch der Weihnachtslieder“, 1896."
       "Von David Herrmann in Lilypond gesetzt."
     }
-  }
-  \general-align #Y #DOWN {
-    \epsfile #X #3 #"publicdomain.eps"
   }
 }
