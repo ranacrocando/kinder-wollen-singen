@@ -6,6 +6,7 @@
   composer = "volkstümlich"
   poet = "volkstümlich / Michael Praetorius / Friedrich Layriz"
   arranger = "Satz: Christian Schramm"
+  copyright = "Public Domain"
 }
 
 \layout {
@@ -129,13 +130,3 @@ verseOne = \lyricmode {
   }
 }
 
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt von Christian Schramm
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-    }
-  }
-}
