@@ -84,7 +84,7 @@ ApartAverseA = \lyricmode { \set stanza = " 1. " Dash -- ing  through the snow, 
 
     \set Score.skipBars = ##t
     %%\set Score.melismaBusyProperties = #'()
-    \override Score.BarNumber #'break-visibility = #end-of-line-invisible %%every bar is numbered.!!!
+    \override Score.BarNumber.break-visibility = #end-of-line-invisible %%every bar is numbered.!!!
     %% remove previous line to get barnumbers only at beginning of system.
     #(set-accidental-style 'modern-cautionary)
     \set Score.markFormatter = #format-mark-box-letters %%boxed rehearsal-marks
