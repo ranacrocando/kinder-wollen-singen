@@ -27,6 +27,8 @@
   title = "Joseph, lieber Joseph mein"
   composer = "Traditionell"
   poet = "Traditionell"
+  arranger = "Gesetzt für kinder-wollen-singen.de"
+  copyright = "Public Domain"
 }
 
 
@@ -146,14 +148,4 @@ theChords = \chordmode { f1 bes8 f1*11/8 bes8 f4. bes1. f2. c4. c:7 f2 }
   }
 }
 
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt für http://www.kinder-wollen-singen.de
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-    }
-  }
-}
 #(set-global-staff-size 20)
