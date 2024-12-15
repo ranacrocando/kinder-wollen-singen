@@ -49,9 +49,6 @@ harmonies = \chordmode {
   >>
 
   \layout{ }
-  \midi { }
-
-
 }
 
 \markup {
