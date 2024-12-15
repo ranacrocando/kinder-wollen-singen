@@ -75,7 +75,7 @@ ApartAverseB = \lyricmode { \set stanza = " 2. " sonst wär'n wir gar ver -- lor
 
     \set Score.skipBars = ##t
     %%\set Score.melismaBusyProperties = #'()
-    \override Score.BarNumber.break-visibility = ##(#"end-of-line-invisible") %%every bar is numbered.!!!
+    \override Score.BarNumber.break-visibility = #end-of-line-invisible %%every bar is numbered.!!
     %% remove previous line to get barnumbers only at beginning of system.
     #(set-accidental-style 'modern-cautionary)
     \set Score.markFormatter = #format-mark-box-letters %%boxed rehearsal-marks
