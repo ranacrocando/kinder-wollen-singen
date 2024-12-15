@@ -5,8 +5,6 @@
 
 \version "2.24.2"
 
-
-
 #(set-default-paper-size "a4")
 
 \paper {
@@ -29,7 +27,6 @@
   composer = "James Pierpont"
   arranger = "Gesetzt für kinder-wollen-singen.de"
 }
-
 
 AvoiceAA = \relative c'{
   \set Staff.instrumentName = #""
@@ -84,8 +81,6 @@ ApartAverseA = \lyricmode { \set stanza = " 1. " Dash -- ing  through the snow, 
     >>
 
     \context Lyrics = ApartAverseA\lyricsto AvoiceAA  \ApartAverseA
-
-
 
     \set Score.skipBars = ##t
     %%\set Score.melismaBusyProperties = #'()
@@ -157,4 +152,3 @@ ApartAverseA = \lyricmode { \set stanza = " 1. " Dash -- ing  through the snow, 
 }
 
 #(set-global-staff-size 20)
-
