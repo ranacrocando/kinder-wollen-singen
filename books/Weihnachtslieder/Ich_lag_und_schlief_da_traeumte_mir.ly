@@ -14,6 +14,7 @@
   poet = "Hoffmann von Fallersleben (1798-1872)"
   composer = "Volksweise"
   copyright = "Public Domain"
+  arranger = "David Herrmann (basierend auf „Das Buch der Weihnachtslieder“, 1896)"
   tagline = \markup{
     \column{}
   }
@@ -165,14 +166,4 @@ lower =
 
 
 \paper {
-}
-
-
-\markuplines {
-  \italic {
-    \column {
-      "Der Notensatz basiert auf dem Satz aus „Das Buch der Weihnachtslieder“, 1896."
-      "Von David Herrmann in Lilypond gesetzt."
-    }
-  }
 }
