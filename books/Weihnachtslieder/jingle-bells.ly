@@ -3,7 +3,7 @@
 %          Montag, 29. November 2010
 %=============================================
 
-\version "2.12.0"
+\version "2.24.2"
 
 
 
@@ -27,6 +27,7 @@
   title = "Jingle Bells"
   subtitle = "Or the one horse open sleigh"
   composer = "James Pierpont"
+  arranger = "Gesetzt für kinder-wollen-singen.de"
 }
 
 
@@ -157,14 +158,3 @@ ApartAverseA = \lyricmode { \set stanza = " 1. " Dash -- ing  through the snow, 
 
 #(set-global-staff-size 20)
 
-
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt für http://www.kinder-wollen-singen.de
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-    }
-  }
-}
