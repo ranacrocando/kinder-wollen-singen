@@ -3,7 +3,7 @@
 %          Donnerstag, 25. November 2010
 %=============================================
 
-\version "2.12.0"
+\version "2.24.2"
 
 
 
@@ -27,6 +27,8 @@
   title = "We Wish You A Merry Christmas "
   composer = "Traditional aus England"
   poet = "Traditional aus England"
+  arranger = "Gesetzt für kinder-wollen-singen.de"
+  copyright = "Public Domain"
 }
 
 AvoiceAA = \relative c' {
@@ -167,17 +169,6 @@ akkorde =  \chordmode { s4 d2. g e a fis b:m g2 a4:7 d2. d a b2:m e4:7 a2. d fis
     }
   }
   \hspace #0.1
-}
-
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt für http://www.kinder-wollen-singen.de
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-    }
-  }
 }
 
 #(set-global-staff-size 20)
