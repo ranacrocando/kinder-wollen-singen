@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.24.2"
 \header {
   mutopiatitle = "Der Christbaum ist der schönste Baum"
   mutopiacomposer = ""
