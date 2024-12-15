@@ -8,6 +8,8 @@
   title = "Fröhliche Weihnacht überall"
   poet = "A. H. Hoffmann von Fallersleben, 1798 bis 1874"
   composer = "Aus England, 19. Jh."
+  arranger = "Satz: Beate Paland"
+  copyright = "Public Domain"
 }
 
 <<
@@ -81,14 +83,3 @@
   }
 >>
 
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt von Beate Paland
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-
-    }
-  }
-}
