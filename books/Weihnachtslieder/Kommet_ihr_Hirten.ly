@@ -2,11 +2,13 @@
 %
 % Kontakt: PeteCrighton@googlemail.com
 
-\version "2.12.3"
+\version "2.24.2"
 \header {
   title = "Kommet, ihr Hirten"
   poet = "Text: Karl Riedel (1870)"
   composer = "Melodie: Olmütz (1847)"
+  arranger = "Peter Crighton"
+  copyright = "Public Domain"
 }
 
 \layout {
@@ -67,18 +69,6 @@ wdh = \lyricmode {
         "den Menschen allen ein Wohlgefallen."
         "Ehre sei Gott!"
       }
-    }
-  }
-}
-
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt von Peter Crighton
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-
     }
   }
 }
