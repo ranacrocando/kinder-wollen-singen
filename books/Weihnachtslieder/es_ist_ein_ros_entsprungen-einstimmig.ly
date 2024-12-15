@@ -92,12 +92,6 @@ verseOne = \lyricmode {
     \addlyrics { \verseOne }
   >>
   \layout { }
-  \midi {
-    \context {
-      \Score
-      tempoWholesPerMinute = #(ly:make-moment 100 4)
-    }
-  }
 }
 
 \markup {
