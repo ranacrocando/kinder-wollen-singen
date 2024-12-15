@@ -3,7 +3,7 @@
 %          Mittwoch, 17. November 2010
 %=============================================
 
-\version "2.12.0"
+\version "2.24.0"
 
 
 
@@ -31,6 +31,8 @@
   title = "Tochter Zion, freue dich"
   composer = "G. F. Händel, 1747"
   poet = "F. H. Ranke, 1823"
+  arranger = "Gesetzt für kinder-wollen-singen.de"
+  copyright = "Publid Domain"
 }
 
 AvoiceAA = \relative c'{
@@ -119,13 +121,3 @@ ApartAverseA = \lyricmode { \set stanza = " 1. " Toch  ter Zi -- on freu -- e Di
 }
 
 #(set-global-staff-size 20)
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt für http://www.kinder-wollen-singen.de
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-    }
-  }
-}
