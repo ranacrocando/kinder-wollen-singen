@@ -3,7 +3,7 @@
 %          Donnerstag, 18. November 2010
 %=============================================
 
-\version "2.12.0"
+\version "2.24.2"
 
 
 #(set-default-paper-size "a4")
