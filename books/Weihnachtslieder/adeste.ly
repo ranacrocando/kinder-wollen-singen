@@ -19,6 +19,7 @@
   }
   composer = "John Francis Wade (1711 - 1786)"
   tagline = ##f
+  copyright = "Public Domain"
 }
 
 upper =
@@ -221,8 +222,5 @@ verbadeut = \context Lyrics = "verbadeut" \lyricmode {
       "Der Notensatz basiert auf dem von Matt Cocks auf Mutopia als gemeinfrei veröffentlichten Satz,"
       "verändert und um den deutschen Text erweitert von David Herrmann. Als gemeinfrei freigegeben."
     }
-  }
-  \general-align #Y #DOWN {
-    \epsfile #X #3 #"publicdomain.eps"
   }
 }
