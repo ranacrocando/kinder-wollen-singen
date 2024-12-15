@@ -1,4 +1,4 @@
-\version "2.12.3"
+\version "2.24.2"
 \header {
   mutopiatitle = "Adeste Fideles"
   mutopiacomposer = "J. F. Wade"
@@ -7,7 +7,6 @@
   date = "18th century"
   source = "Cantus Diversi, 1751"
   style = "Classical"
-
   maintainer = "Matt Corks, David Herrmann"
   maintainerEmail = "mvcorks@alumni.uwaterloo.ca"
   lastupdated = "2011/Nov/17"
