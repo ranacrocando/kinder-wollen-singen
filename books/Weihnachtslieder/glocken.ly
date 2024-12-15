@@ -16,7 +16,8 @@
   style = "Classical"
   maintainer = "Bernd Krüger"
   lastupdated = "2010/11/16"
-
+  arranger = "Bernd Krüger"
+  copyright = "Public Domain"
   tagline = ""
 
 }
@@ -116,16 +117,4 @@ MvmntIStaffI = \new Staff  <<
     }
   }
   \hspace #0.1
-}
-
-
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt von Bernd Krüger
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-    }
-  }
 }
