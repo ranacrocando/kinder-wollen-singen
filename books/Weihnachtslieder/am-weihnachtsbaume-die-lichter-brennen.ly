@@ -27,6 +27,8 @@
   title = "Am Weihnachtsbaume die Lichter brennen"
   composer = "Traditionell (19. Jhdt)"
   poet = "Hermann Kletke (1841)"
+  copyright = "Public Domain"
+  arranger = " Gesetzt für kinder-wollen-singen.de"
 }
 
 AvoiceAA = \relative c'{
@@ -132,17 +134,6 @@ theChords = \chordmode {
       }
     }
     \hspace #0.1
-  }
-}
-
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt für http://www.kinder-wollen-singen.de
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-    }
   }
 }
 
