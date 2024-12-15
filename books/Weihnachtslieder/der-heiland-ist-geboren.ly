@@ -26,6 +26,8 @@
   title = "Der Heiland ist geboren"
   composer = "Traditionell (Innsbruck 19. Jhdt.)"
   poet = "Traditionell"
+  copyright = "Public Domain"
+  arranger = "Gesetzt für kinder-wollen-singen.de"
 }
 
 AvoiceAA = \relative c'{
@@ -71,8 +73,6 @@ ApartAverseB = \lyricmode { \set stanza = " 2. " sonst wär'n wir gar ver -- lor
 
     \context Lyrics = ApartAverseA\lyricsto AvoiceAA  \ApartAverseA
     \context Lyrics = ApartAverseB\lyricsto AvoiceAA  \ApartAverseB
-
-
 
     \set Score.skipBars = ##t
     %%\set Score.melismaBusyProperties = #'()
@@ -158,16 +158,6 @@ ApartAverseB = \lyricmode { \set stanza = " 2. " sonst wär'n wir gar ver -- lor
       }
     }
     \hspace #0.1
-  }
-}
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt für http://www.kinder-wollen-singen.de
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-    }
   }
 }
 #(set-global-staff-size 20)
