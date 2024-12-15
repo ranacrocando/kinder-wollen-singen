@@ -1,8 +1,4 @@
-%{
-
-Gesetzt von Beate Paland
-
-%}
+\version "2.24.2"
 
 \layout {
   indent = #0
@@ -96,4 +92,3 @@ Gesetzt von Beate Paland
     }
   }
 }
-\version "2.12.3"  % necessary for upgrading to future LilyPond versions.
