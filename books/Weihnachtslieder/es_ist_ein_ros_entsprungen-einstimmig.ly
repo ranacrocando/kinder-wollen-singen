@@ -1,10 +1,11 @@
-\version "2.12.3"
+\version "2.24.2"
 
 
 \header {
   title = "Es ist ein Ros entsprungen"
   composer = "volkstümlich"
   poet = "volkstümlich / Michael Praetorius / Friedrich Layriz"
+  arranger = "Satz: Christian Schramm"
 }
 
 \layout {
