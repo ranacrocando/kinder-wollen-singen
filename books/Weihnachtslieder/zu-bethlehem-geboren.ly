@@ -3,7 +3,7 @@
 %          Donnerstag, 18. November 2010
 %=============================================
 
-\version "2.12.0"
+\version "2.24.2"
 
 
 
@@ -26,6 +26,8 @@
 \header {
   title = "Zu Bethlehem geboren"
   composer = "Friedrich Spee (1637)"
+  arranger = "Gesetzt für kinder-wollen-singen.de"
+  copyright = "Public Domain"
 }
 
 AvoiceAA = \relative c'{
@@ -145,14 +147,4 @@ ApartAverseA = \lyricmode { \set stanza = " 1. " Zu Beth -- le -- hem ge -- bo -
   }
 }
 
-\markuplines {
-  \italic {
-    \line {
-      Gesetzt für http://www.kinder-wollen-singen.de
-      \general-align #Y #DOWN {
-        \epsfile #X #3 #"publicdomain.eps"
-      }
-    }
-  }
-}
 #(set-global-staff-size 20)
