@@ -27,7 +27,7 @@ upper =
   \slurDown
   \clef "treble"
   \key a\major
-  \override Staff.TimeSignature   #'style = #'numbered
+  \override Staff.TimeSignature.style = #'numbered
   \time 4/4
   \partial 4
   <e a>4
@@ -65,7 +65,7 @@ lower =
 \relative c {
   \clef "bass"
   \key a\major
-  \override Staff.TimeSignature   #'style = #'numbered
+  \override Staff.TimeSignature.style = #'numbered
   \time 4/4
   \partial 4
   <a cis'>4
