@@ -27,10 +27,8 @@
   title = "Der Mond ist aufgegangen"
   composer = "J.A.P. Schulz (1747-1800)"
   poet = "Matthias Claudius (1740-1815)"
-  copyright = "Gemeinfrei
-Darf beliebig kopiert und weitergegeben werden!
-
-Gesetzt für www.kinder-wollen-singen.de"
+  copyright = "Gemeinfrei"
+  arranger = "Gesetzt für kinder-wollen-singen.de"
 }
 
 AvoiceAA = \relative c'{
