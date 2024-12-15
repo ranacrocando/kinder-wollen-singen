@@ -22,7 +22,7 @@ melodie = \relative c' {
   \clef "treble"
   \time 3/4
   \key f\major
-  #(override-auto-beam-setting '(end * * * *) 2 4)
+  \autoBeamOff
   \repeat volta 2 {
     c'4 c8( a) d( bes) | c4 c8( a) d( bes) |
     c4 a8( c) g( a) | f2.
