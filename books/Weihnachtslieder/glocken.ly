@@ -14,7 +14,7 @@
   title = "Süßer die Glocken nie klingen"
   composer = "Volksweise"
   style = "Classical"
-  maintainer = "Bernd Krüger"
+  maintainer = "Bernd Krüger"
   lastupdated = "2010/11/16"
 
   tagline = ""
