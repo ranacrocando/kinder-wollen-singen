@@ -94,14 +94,6 @@ lower =
       \Staff
     }
   }
-
-
-  \midi {
-    \context {
-      \Score
-      tempoWholesPerMinute = #(ly:make-moment 120 4)
-    }
-  }
 }
 \markup {
   \hspace #0.1
