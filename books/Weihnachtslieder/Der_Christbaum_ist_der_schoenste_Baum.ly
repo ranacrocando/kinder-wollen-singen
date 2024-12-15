@@ -13,7 +13,9 @@
   title = "Der Christbaum ist der schönste Baum"
   poet = "Norddeutsches Volkslied"
   composer = "Volksweise"
+  arranger = "Satz: David Herrmann, basierend auf „Das Buch der Weihnachtslieder“, 1896"
   footer = ""
+  copyright = "Public Domain"
 }
 
 \layout {
@@ -157,15 +159,4 @@ lower =
 
 
 \paper {
-}
-
-
-\markuplines {
-  \italic {
-    "Der Notensatz basiert auf dem Satz aus „Das Buch der Weihnachtslieder“, 1896."
-    "Von David Herrmann in Lilypond gesetzt."
-  }
-  \general-align #Y #DOWN {
-    \epsfile #X #3 #"publicdomain.eps"
-  }
 }
