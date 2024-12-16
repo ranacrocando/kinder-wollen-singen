@@ -71,7 +71,7 @@ jobs:
       - name: Upload PDF Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: "${{matrix.directory.replace('/', '_') }} Scores"
+          name: "${{ format('{0} Scores', matrix.directory | replace('/', '_')) }}"
           # because "/" slashes are invalid in artifact names
           path: ${{matrix.directory}}/*.pdf
 
