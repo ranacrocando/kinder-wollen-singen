@@ -43,7 +43,7 @@ jobs:
           echo "::set-output name=matrix::$( echo "$JSON" )"
 
   build_scores:
-    name: Compile with Lilypond and Upload PDF
+    name: Compile with Lilypond and Upload PDF Artifacts
     runs-on: ubuntu-latest
     needs: [ directories ]
     strategy:
@@ -71,7 +71,8 @@ jobs:
       - name: Upload PDF Artifacts
         uses: actions/upload-artifact@v4
         with:
-          name: "${{matrix.directory}} Scores"
+          name: "${{matrix.directory.replace('/', '_') }} Scores"
+          # because "/" slashes are invalid in artifact names
           path: ${{matrix.directory}}/*.pdf
 
   release_artifacts:
