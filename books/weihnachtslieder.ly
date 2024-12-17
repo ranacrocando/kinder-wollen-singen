@@ -69,6 +69,8 @@
   \DCI_Score
   \DCI_Strophen
 }
+\language "english" % because we included "deutsch.ly"
+
 
 \include "weihnachtslieder/der_heiland_ist_geboren_voices.ly"
 \bookpart{
