@@ -28,3 +28,4 @@ Die so erzeugten PDF-Dateien sind dann in den Action- bzw. Release-Artifacts ver
 ### Unterschiede zum geforkten Repository von Jollyjinx
 Diese CI ist ein wesentlicher Unterschied zu Jollyinx Repository, bei dem die Datein händisch/lokal konvertiert werden mussten (wahrscheinlich auch, weil es damals noch keine Github Actions gab).
 Außerdem verzichten wir hier auf LaTex bzw. `lilypond-book`, was uns zwar ein bisschen Flexibilität nimmt aber das Setup als Ganzes deutlich vereinfacht.
+
