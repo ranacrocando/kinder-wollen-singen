@@ -5,13 +5,22 @@ Das Repository basiert auf der [Vorarbeit von Patrick Stein (aka Jollyjinx)](htt
 der wiederum Teile des unter "Creative Commons" lizensierten Materials von der (nicht mehr existierenden) Musikpiraten-Website kopiert hatte.
 
 ## Urheberrecht
-Dieses Repository ist, sofern nicht in einzelne Dateien anders angegeben, unter der [Creative Commons Public Domain License](http://creativecommons.org/publicdomain/zero/1.0/deed.de) lizensiert.
+Dieses Repository ist, sofern nicht in einzelnen Dateien anders angegeben, unter der [Creative Commons Public Domain License](http://creativecommons.org/publicdomain/zero/1.0/deed.de) lizensiert.
+
+## Weihnachtslieder
+
+| Titel / PDF                                                                                                                                                        | Lilypond-Datei                                                                                                  |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| [Adeste Fidelis / Herbei O Ihr Gläubigen](https://github.com/ranacrocando/kinder-wollen-singen/releases/latest/download/adeste_fidelis.pdf)                        | [`adeste_fidelis.ly`](books/weihnachtslieder/adeste_fidelis.ly)                                                 |
+| [Alle Jahre wieder](https://github.com/ranacrocando/kinder-wollen-singen/releases/latest/download/alle_jahre_wieder.pdf)                                           | [`alle_jahre_wieder.ly`](books/weihnachtslieder/alle_jahre_wieder.ly)                                           |
+| [Am Weihnachtsbaume die Lichter brennen](https://github.com/ranacrocando/kinder-wollen-singen/releases/latest/download/am_weihnachtsbaume_die_lichter_brennen.pdf) | [`am_weihnachtsbaume_die_lichter_brennen.ly`](books/weihnachtslieder/am_weihnachtsbaume_die_lichter_brennen.ly) |
+| [ALLE WEIHNACHTSLIEDER](https://github.com/ranacrocando/kinder-wollen-singen/releases/latest/download/weihnachtslieder.pdf) (noch unvollständig)                   | [`weihnachtslieder.ly`](books/weihnachtslieder.ly)                                                              |
 
 ## Unter der Haube
 Nur die `.ly`-Dateien werden in git verwaltet.
 Es gibt
-1. einzelne Weihnachtslieder
-2. eine große [`weihnachtslieder.ly`](books/weihnachtslieder.ly)-Datei, die alle einzelnen Weihnachtslieder in einer großen Datei zusammenfasst.
+1. sowohl einzelne Weihnachtslieder
+2. als auch eine große [`weihnachtslieder.ly`](books/weihnachtslieder.ly)-Datei, die alle einzelnen Weihnachtslieder in einer großen Datei zusammenfasst.
 
 [Eine Github Action](.github/workflows/release-pdf.yml) konvertiert für jeden Pull Request und für jedes Release _alle_ `.ly`-Dateien zu PDF-Dateien.
 Die so erzeugten PDF-Dateien sind dann in den Action- bzw. Release-Artifacts verfügbar.
