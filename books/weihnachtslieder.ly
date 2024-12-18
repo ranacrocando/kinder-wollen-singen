@@ -69,18 +69,16 @@
   \DCI_Score
   \DCI_Strophen
 }
-\language "english" % because we included "deutsch.ly"
-
 
 \include "weihnachtslieder/der_heiland_ist_geboren_voices.ly"
 \bookpart{
-\header {
-  subtitle = \DHI_title
-  composer = \DHI_composer
-  poet = \DHI_poet
-  copyright = \DHI_copyright
-  arranger = \DHI_arranger
-}
-\DHI_Score
-\DHI_Strophen
+  \header {
+    subtitle = \DHI_title
+    composer = \DHI_composer
+    poet = \DHI_poet
+    copyright = \DHI_copyright
+    arranger = \DHI_arranger
+  }
+  \DHI_Score
+  \DHI_Strophen
 }
