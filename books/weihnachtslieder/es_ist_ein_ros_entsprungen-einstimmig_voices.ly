@@ -41,7 +41,7 @@ EIE_melody = \relative c'' {
 
 EIE_chordNames = \chordmode {
   \set chordChanges = ##t
-  \global
+  \EIE_global
   \germanChords
   f2~
   f2 bes4 f
