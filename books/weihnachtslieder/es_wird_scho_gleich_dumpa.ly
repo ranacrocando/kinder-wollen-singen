@@ -1,17 +1,19 @@
 \version "2.24.2"
 
+EWS_title = "Es wird scho glei dumpa"
+EWS_composer = "Franz Friedrich Kohl und Josef Reiter"
+EWS_poet = "Anton Reidinger"
+EWS_arranger = "Satz: Martin Thoma (thoma-stammler.at)"
+EWS_copyright = "Public Domain"
 \header {
-  title = "Es wird scho glei dumpa"
-  composer = "Franz Friedrich Kohl und Josef Reiter"
-  poet = "Anton Reidinger"
-  arranger = "Satz: Martin Thoma (thoma-stammler.at)"
-  copyright = "Public Domain"
+  title = \EWS_title
+  composer = \EWS_composer
+  poet = \EWS_poet
+  arranger = \EWS_arranger
+  copyright = \EWS_copyright
 }
 
-\layout {
-  indent = #0
-}
-
+\EWS_Score = \score {
 <<
   \new ChordNames {
     \chordmode {
@@ -85,4 +87,4 @@
     åft kånn i mi ruah -- li aufs Nie -- der -- legn gfrein.
   }
 >>
-
+}
