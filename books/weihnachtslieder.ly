@@ -218,7 +218,7 @@
       poet = \KIH_poet
       composer = \KIH_composer
       arranger = \KIH_arranger
-      maintainerEmail = \KIH_mainainerEmail
+      maintainerEmail = \KIH_maintainerEmail
       maintainerWeb = \KIH_maintainerWeb
       copyright = \KIH_copyright
     }
