@@ -132,7 +132,7 @@
   \FWU_Score
 }
 
-\include "ich_lag_und_schlief_da_traeumte_mir_voices.ly"
+\include "weihnachtslieder/ich_lag_und_schlief_da_traeumte_mir_voices.ly"
 \bookpart{
   \header {
     date = \ILU_date
