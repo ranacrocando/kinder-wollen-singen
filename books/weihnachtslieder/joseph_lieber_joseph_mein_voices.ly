@@ -40,8 +40,6 @@ JLJ_Score = {
 
     \context Lyrics = ApartAverseA\lyricsto AvoiceAA  \JLJ_ApartAverseA
 
-
-
     \set Score.skipBars = ##t
     %%\set Score.melismaBusyProperties = #'()
     \override Score.BarNumber.break-visibility = #end-of-line-invisible %%every bar is numbered.!!!
@@ -63,11 +61,6 @@ JLJ_Score = {
     %% In my experience the normal thing in printed scores is maj7 and not the triangle. (olagunde):
     \set Score.majorSevenSymbol = \markup {maj7}
   >>
-
-  %% Boosey and Hawkes, and Peters, have barlines spanning all staff-groups in a score,
-  %% Eulenburg and Philharmonia, like LilyPond, have no barlines between staffgroups.
-  %% If you want the Eulenburg/LilyPond style, comment out the following line:
-  \layout {\context {\Score \consists Span_bar_engraver}}
 }%% end of score-block
 
 
