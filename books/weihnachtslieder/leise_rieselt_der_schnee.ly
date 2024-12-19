@@ -1,22 +1,21 @@
-% Dieses Notenblatt wurde erstellt von Peter Crighton [http://www.petercrighton.de]
-%
-% Kontakt: PeteCrighton@googlemail.com
-
 \version "2.24.2"
+LRS_title = "Leise rieselt der Schnee"
+LRS_poet = "Text: Eduard Ebel (1895)"
 \header {
-  title = "Leise rieselt der Schnee"
-  poet = "Text: Eduard Ebel (1895)"
+  title = \LRS_title
+  poet = \LRS_poet
   composer = "Melodie: Eduard Ebel (um 1900)"
   arranger = "Peter Crighton"
+  maintainerEmail = "PeteCrighton@googlemail.com"
+  maintainerWeb = "http://www.petercrighton.de"
   copyright = "Public Domain"
 }
-\layout {
-  indent = #0
-}
-akkorde = \chordmode {
+
+
+LRS_akkorde = \chordmode {
   f4. c f2. bes f c4. c:7 d2.:m g4.:m c f2.
 }
-melodie = \relative c' {
+LRS_melodie = \relative c' {
   \clef "treble"
   \time 6/8
   \key f\major
@@ -25,21 +24,21 @@ melodie = \relative c' {
   g'8 fis g bes a g | f4.~ f4 r8 |
   g8. d16 d8 e d e | f4.~ f4 r8 \bar "|."
 }
-text = \lyricmode {
+LRS_text = \lyricmode {
   \set stanza = "1."
   Lei -- se rie -- selt der Schnee,
   still und starr liegt der See, __
   weih -- nacht -- lich glän -- zet der Wald: __
   Freu -- e dich, Christ -- kind kommt bald. __
 }
-\score {
+LRS_Score = \score {
   <<
     \new ChordNames { \akkorde }
     \new Voice = "Lied" { \melodie }
     \new Lyrics \lyricsto "Lied" { \text }
   >>
 }
-\markup {
+LRS_Strophen = \markup {
   \column {
     \line {
       \bold "2."
