@@ -28,9 +28,9 @@ LRS_text = \lyricmode {
 }
 LRS_Score = \score {
   <<
-    \new ChordNames { \akkorde }
-    \new Voice = "Lied" { \melodie }
-    \new Lyrics \lyricsto "Lied" { \text }
+    \new ChordNames { \LRS_akkorde }
+    \new Voice = "Lied" { \LRS_melodie }
+    \new Lyrics \lyricsto "Lied" { \LRS_text }
   >>
 }
 LRS_Strophen = \markup {
