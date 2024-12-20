@@ -12,7 +12,7 @@ Für einzelne PDFs, siehe unten.
 ## Urheberrecht
 Dieses Repository ist, sofern nicht in einzelnen Dateien anders angegeben, unter der [Creative Commons Public Domain License](LICENSE) lizensiert.
 
-## Weihnachtslieder
+## Liste aller enthaltenen Weihnachtslieder
 
 | Titel / PDF                                                                                                                                                        | Tonart | Akkorde | Satz             | Lilypond-Datei                                                                                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|---------|------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Dieses Repository ist, sofern nicht in einzelnen Dateien anders angegeben, unter
 | [Zu Bethlehem geboren](https://github.com/ranacrocando/kinder-wollen-singen/releases/latest/download/zu_bethlehem_geboren.pdf)                                     | F      | ❌       | einstimmig       | [`zu_bethlehem_geboren.ly`](books/weihnachtslieder/zu_bethlehem_geboren.ly)                                     |
 | [ALLE WEIHNACHTSLIEDER](https://github.com/ranacrocando/kinder-wollen-singen/releases/latest/download/weihnachtslieder.pdf)                                        |        |         |                  | [`weihnachtslieder.ly`](books/weihnachtslieder.ly)                                                              |
 
-## Unter der Haube
+## Unter der Haube / Technische Details
 Nur die `.ly`-Dateien werden in git verwaltet.
 Es gibt
 1. sowohl einzelne Weihnachtslieder als "Standalone"
