@@ -127,12 +127,12 @@ OTB_harmonies = \new ChordNames \chordmode {
 
 OTB_Score = \score {
   <<
-    \harmonies
+    \OTB_harmonies
     \OTB_staffVoice
     \context Lyrics = "lmelodyVoiLI" \lyricmode { \lyricsto "melodyVoi" \OTB_verseI }
     \context Lyrics = "lmelodyVoiLII" \lyricmode { \lyricsto "melodyVoi" \OTB_verseII }
     \context Lyrics = "lmelodyVoiLIII" \lyricmode { \lyricsto "melodyVoi" \OTB_verseIII }
-    \staffPiano
+    \OTB_staffPiano
   >>
 
 }
