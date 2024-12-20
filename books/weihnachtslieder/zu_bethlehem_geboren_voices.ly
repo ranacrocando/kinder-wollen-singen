@@ -1,6 +1,6 @@
 \version "2.24.2"
 ZBG_title = "Zu Bethlehem geboren"
-ZBZ_composer = "Friedrich Spee (1637)"
+ZBG_composer = "Friedrich Spee (1637)"
 ZBG_arranger = "Gesetzt für kinder-wollen-singen.de"
 ZBG_copyright = "Public Domain"
 
